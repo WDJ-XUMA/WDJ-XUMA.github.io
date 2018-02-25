@@ -7,14 +7,16 @@
 </head>
 <body>
 	<h2>Welcome to my blog</h2>
-	<div id="content"></div>
-	<script type="text/javascript">
-		window.onload = function(){
-			var a = [{name:"jack",age:6},{name:'mick',age:9}];
-			document.getElementById('content').innerHtml=a;
-		}
-		
-
-	</script>
+	{
+		message:[
+			{
+				name:"jack",age:6
+			},
+			{
+				name:'mick',age:9
+			}
+		]
+	}
+	
 </body>
 </html>
